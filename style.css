@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+a  {
+    text-decoration: none;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    list-style: none;
+}
+
+.title-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    color: #fff;
+}
+
+.title-top img{
+    width: 15vw;
+    height: 21vh;
+}
+
+body{
+    background-color: black;
+    /* background-size: cover;  */
+    width: 100%;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 900;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(51, 49, 49);
+    color: rgb(173, 173, 173);
+    height: 3.5vh;
+    }
+
+li:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+
+
+
+.tier-header {
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 3vw;
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.album {
+    width: 40vw;
+    
+    margin-bottom: 3.4vw;
+    color: #fff;
+}
+
+.album img {
+    width: 40vw;
+    height: 50vh;
+}
+
+#playlist {
+    position: fixed;
+    color: white;
+    width: 25vw;
+    height: 25vh;
+    right: 72vw;
+
+}
+
